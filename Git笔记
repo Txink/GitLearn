@@ -1,0 +1,57 @@
+git config --list 查看配置信息
+
+//初始化仓库
+git init
+
+//添加追踪
+git add 文件名
+
+//查看git状态
+git status
+	-s	简短输出
+
+//保存修改到暂存区
+git commit
+	-m "str" 保存并添加日志
+
+//提交和重新提交
+git commit 
+git commit --amend
+
+//移除
+git rm 
+
+//取消暂存
+git reset HEAD 文件名
+
+//撤销更改
+git checkout -- 文件名
+
+//推送到远程仓库
+git push origin master
+//origin 远程服务器
+//master master 表示推送到的分支
+
+//查看项目分叉日志
+git log --oneline --decorate --graph --all
+
+
+//合并分支，会和当前分支合并
+git merge 分支名
+
+//删除分支
+git branch -d 分支名
+
+//查看分支最后一次提交
+git branch -v
+
+
+//版本回朔
+git reset --hard 某一版本
+//远程同步
+git push --force 
+
+
+
+
+
