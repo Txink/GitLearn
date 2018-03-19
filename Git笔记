@@ -36,6 +36,11 @@ git push origin master
 git log --oneline --decorate --graph --all
 
 
+//合并分支，会和当前分支合并
+git merge 分支名
+
+//删除分支
+git branch -d 分支名
 
 
 
