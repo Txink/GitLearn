@@ -18,6 +18,9 @@ git commit
 git commit 
 git commit --amend
 
+//保存加提交
+git commit -a -m 日志 	
+
 //移除
 git rm 
 
