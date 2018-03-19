@@ -46,6 +46,9 @@ git branch -d 分支名
 git branch -v
 
 
+//版本回朔
+git reset --hard 某一版本
+
 
 
 
