@@ -1,0 +1,15 @@
+git config --list 查看配置信息
+
+//初始化仓库
+git init
+
+//添加追踪
+git add 文件名
+
+//查看git状态
+git status
+	-s	简短输出
+
+//保存修改到暂存区
+git commit
+	-m "str" 保存并添加日志
