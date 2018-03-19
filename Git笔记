@@ -32,7 +32,8 @@ git push origin master
 //origin 远程服务器
 //master master 表示推送到的分支
 
-
+//查看项目分叉日志
+git log --oneline --decorate --graph --all
 
 
 
