@@ -33,6 +33,15 @@ git push origin master
 //master master 表示推送到的分支
 
 
+//创建分支
+git branch 分支名
+
+//切换到分支
+git checkout 分支名
+
+
+
+
 
 
 
