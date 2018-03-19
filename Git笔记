@@ -13,3 +13,34 @@ git status
 //保存修改到暂存区
 git commit
 	-m "str" 保存并添加日志
+
+//提交和重新提交
+git commit 
+git commit --amend
+
+//移除
+git rm 
+
+//取消暂存
+git reset HEAD 文件名
+
+//撤销更改
+git checkout -- 文件名
+
+//推送到远程仓库
+git push origin master
+//origin 远程服务器
+//master master 表示推送到的分支
+
+
+
+
+
+
+
+
+
+
+
+
+
